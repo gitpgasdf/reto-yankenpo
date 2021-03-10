@@ -44,3 +44,24 @@ img:hover {
 input:hover {
     cursor: pointer;
 }
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.footer__nav {
+    display: flex;
+    align-items: center;
+}
+.footer__nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+    margin: 2rem 1.5rem;
+}
+.footer__nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
