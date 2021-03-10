@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.lista {
+    display: flex;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    height: 50rem;
+    margin: 2rem;
+    margin-top: 10rem;
+    border: 0.05rem solid grey;
+    border-radius: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+}
+h1 {
+    font-size: 4rem;
+}
+.Papel img {
+    width: 22rem;
+    height: 25rem;
+}
+.Tijeras img {
+    width: 22rem;
+    height: 25rem;
+}
+img:hover {
+    cursor: pointer;
+}
+input:hover {
+    cursor: pointer;
+}
